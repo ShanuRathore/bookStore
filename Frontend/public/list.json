@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "Story Book",
+        "title": "The Story of the World where magic is everything and nothing is impossible",
+        "price": 0,
+        "category": "Free",
+        "image": "https://cdni.iconscout.com/illustration/free/thumb/girl-reading-book-5053945-4207037.png"
+    },
+    {
+        "id": 2,
+        "name": "Music Book",
+        "title": "Music that entertains you and makes you feel alive and happy ",  
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/organic-flat-person-meditating-peacefully_23-2148909902.jpg?t=st=1715525917~exp=1715529517~hmac=efb80d3a90f84789b721781e6621e3628cb414a83166b888188fa42fcb21fd00&w=740"
+    },
+    {
+        "id": 3,
+        "name": "Adventure Book",
+        "title": "The tales of a villager who became a hero and saved the world ",
+        "price": 120,
+        "category": "Adventure",
+        "image": "https://img.freepik.com/free-vector/friends-climb-mountain-hike-cartoon-man-holding-hand-woman-help-reaching-top-high-cliffs-hills-solidarity-support-cooperation-two-united-people-team-isolated-white_575670-852.jpg?t=st=1715525764~exp=1715529364~hmac=3a47ef5dc95b7c7d479d6ca1bde058f818deedd170481d7e91cfe32c20fe4443&w=826"
+    },
+    {
+        "id": 4,
+        "name": "Story Book",
+        "title": "The Story of the World where magic is everything and nothing is impossible ",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/world-book-day-illustration_23-2149323887.jpg?t=st=1715525553~exp=1715529153~hmac=e227760af025be714a15d5e92e50c7763a0f583e2f7dc717dda80616aa85d96f&w=740"
+    },
+    {
+        "id": 5,
+        "name": "Magic Book",
+        "title": "World full of magical creatures like dragons , mermaids , fairies and many more ",
+        "price": 200,
+        "category": "Magic",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-magical-dream-with-giant-mouse_52683-95041.jpg?t=st=1715525732~exp=1715529332~hmac=c12dbb0efdf5259b9484a971914694798fd397b10873c8f356b0eee157adf633&w=740"
+    },
+    {
+        "id": 6,
+        "name": "Adventure Book",
+        "title": "The sky is the limit and the world is full of magical creatures ",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/tornado-design_23-2147708857.jpg?t=st=1715526109~exp=1715529709~hmac=6749b3c304fc61069d13a57b765fd96861f8117126524707516519831ad09473&w=740"
+    },
+    {
+        "id": 7,
+        "name": "Mystery Book",
+        "title": "The Story of the World where magic is everything and nothing is impossible",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/many-cute-dinosaurs-character-prehistoric-land-isolated_1308-57805.jpg?t=st=1715526507~exp=1715530107~hmac=3631093f7774819e13b05e1126217150b7cf6404b438739efc0657bcb8048389&w=740"
+    },
+    {
+        "id": 8,
+        "name": "Dinosaur Book",
+        "title": "The Story of the World where magic is everything and nothing is impossible ",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/many-cute-dinosaurs-character-prehistoric-land-isolated_1308-57805.jpg?t=st=1715526507~exp=1715530107~hmac=3631093f7774819e13b05e1126217150b7cf6404b438739efc0657bcb8048389&w=740"
+    },
+    {
+        "id": 9,
+        "name": "Magic Book",
+        "title": "World full of mages and everyone is trying to become the best mage  ",
+        "price": 0,
+        "category": "Free",
+        "image": "https://media.istockphoto.com/illustrations/forest-treasure-illustration-id613676514?k=6&m=613676514&s=612x612&w=0&h=gC-1LWRQSIyClbTFJy_dXXb_d4eeEI6gaFrln9IBbGY="
+    },
+    {
+        "id": 10,
+        "name": "Sports Book",
+        "title": "The Story of the World where magic is everything and nothing is impossible ",
+        "price": 120,
+        "category": "Sports",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-person-doing-sport-illustration_23-2150562270.jpg?t=st=1715527414~exp=1715531014~hmac=e7e0695c561e0ccfe404dfd05cb6ddc094475f5b2d99e69509d38c4d9d50bb83&w=740"
+    },
+    {
+        "id": 11,
+        "name": "Music Book",
+        "title": "Music that you love and makes you feel alive and happy and sad and every emotion you can think of",
+        "price": 100,
+        "category": "Song",
+        "image": "https://img.freepik.com/free-vector/boombox-concept-illustration_114360-6391.jpg?t=st=1715527357~exp=1715530957~hmac=ec749557a2e7fd689743e80e5d2a716dc0b2190cd67b16bb1fb2c3aaf7321415&w=740"
+    },
+    {
+        "id": 12,
+        "name": "Story Book",
+        "title": "The Story of the World where magic is everything and nothing is impossible ",
+        "price": 0,
+        "category": "Free",
+        "image": "https://cdni.iconscout.com/illustration/free/thumb/girl-reading-book-5053945-4207037.png"
+    }
+]

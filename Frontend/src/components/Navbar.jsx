@@ -4,7 +4,7 @@ import Login from "./Login";
 
 function Navbar() {
 
-  const [theme, setTheme] = useState(localStorage.getItem("theme") ? localStorage.getItem("theme") : "light");
+  const [theme, setTheme] = useState(localStorage.getItem("theme") ? localStorage.getItem("theme") : "dark");
   const element = document.documentElement;
   useEffect(() => {
     if (theme === "dark") {
@@ -45,7 +45,7 @@ function Navbar() {
         <Link to="/contact">Contact</Link>
       </li>
       <li>
-        <Link to="">About</Link>
+        <Link to="/about">About</Link>
       </li>
     </>
   );
@@ -68,7 +68,7 @@ function Navbar() {
       className={`max-w-screen-2xl container mx-auto md:px-10 px-4 dark:bg-slate-900 dark:text-white fixed top-0 left-0 right-0 z-50
                         ${
                           sticky
-                            ? "sticky-navbar shadow-md bg-base-200 dark:bg-slate-700 dark:text-white dark:shadow-md duration-300 transition-all ease-in-out "
+                            ? "sticky-navbar shadow-md bg-base-200 dark:bg-slate-600 dark:text-white dark:shadow-md duration-300 transition-all ease-in-out "
                             : ""
                         } `}
     >
@@ -98,7 +98,7 @@ function Navbar() {
               {navItems}
                <li>
                 <a>Types..</a>
-                <ul className="p-2">{navItems2}</ul>
+                <ul className="p-2 ">{navItems2}</ul>
               </li>
             </ul>
           </div>
@@ -112,7 +112,7 @@ function Navbar() {
               <li>
                 <details>
                   <summary>Types...</summary>
-                  <ul className="p-2">{navItems2}</ul>
+                  <ul className="p-2 dark:bg-slate-900 dark:text-white">{navItems2}</ul>
                 </details>
               </li>
             </ul>
@@ -167,7 +167,7 @@ function Navbar() {
             </svg>
           </label>
           <div className="">
-            <a className="bg-black text-white px-5 py-2 rounded-md hover:bg-slate-600 duration-300 cursor-pointer"
+            <a className="bg-teal-900 text-white px-5 py-2 rounded-md hover:bg-teal-600 hover:text-black duration-300 cursor-pointer"
                 onClick={()=>document.getElementById("my_modal_3").showModal()}>
               Login
             </a>

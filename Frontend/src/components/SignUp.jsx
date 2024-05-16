@@ -13,7 +13,7 @@ function Signup() {
     
     return (
         <div className='flex h-screen items-center justify-center dark:bg-slate-900 dark:text-white'>
-            <div  className="w-1/2 flex justify-center">
+            
                 <div className="modal-box dark:bg-slate-800 dark:text-white">
                     <form method="dialog" onSubmit={handleSubmit(onSubmit)}>
                         {/* if there is a button in form, it will close the modal */}
@@ -44,7 +44,7 @@ function Signup() {
                                     {errors.password && <span className='text-red-600 text-sm'>This field is required</span>}
                             </div>
                             <div className='flex mt-4 justify-around al'>
-                                <button className='bg-teal-400 px-4 py-2 rounded-lg hover:bg-teal-700 hover:text-white cursor-pointer'>SignUp</button>
+                                <button className='bg-teal-400 px-4 py-2 rounded-lg md:py-1 hover:bg-teal-700 hover:text-white cursor-pointer'>SignUp</button>
                                 <p className='mt-2'>Already have account? 
                                     <button 
                                         onClick={()=>document.getElementById('my_modal_3').showModal()} 
@@ -56,7 +56,7 @@ function Signup() {
                         </div>
                     </form>
                 </div>
-            </div>
+            
         </div>
     )
 }

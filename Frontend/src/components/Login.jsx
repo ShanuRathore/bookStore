@@ -12,7 +12,7 @@ function Login() {
     const onSubmit = (data) => console.log(data)
     
     return (
-        <div className=''>
+        <div >
             <dialog id="my_modal_3" className="modal ">
                 <div className="modal-box dark:bg-slate-800 dark:text-white">
                     <form onSubmit={handleSubmit(onSubmit)} method="dialog">

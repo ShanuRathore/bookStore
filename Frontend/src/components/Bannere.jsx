@@ -21,7 +21,7 @@ function Bannere() {
                             <input type="text" className="grow" placeholder="Email" />
                         </label>
                     </div>
-                    <button className="mt-6 btn bg-teal-900 border-none text-white text-lg hover:bg-teal-600 hover:text-black duration-300 px-8 ">Submit</button>
+                    <button className="mt-6 btn bg-teal-900 border-none text-white text-lg hover:bg-teal-600 hover:text-black duration-300 px-8 ">Get Started</button>
                 </div>
                 <div className="order-1 md:order-2 w-full md:w-1/2 mt-12 md:mt-10">
                     <img src={banner} className="w-92 h-92 dark:brightness-50" alt="" />

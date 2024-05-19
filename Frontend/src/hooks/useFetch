@@ -1,0 +1,25 @@
+import { useState, useEffect } from 'react'
+import axios from "axios"
+
+const useFetch = (url) => {
+    const[book,setBook]=useState([])
+  useEffect(()=>{
+    const getBook=async()=>{
+      try {
+        const res = await axios.get(url)
+        console.log(res.data);
+        setBook(res.data); 
+      } catch (error) {
+        console.log(error);
+      }
+    }
+    getBook()
+  },[])
+
+    return{book};
+
+};
+
+export default useFetch;
+
+

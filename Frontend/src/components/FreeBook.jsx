@@ -1,15 +1,19 @@
 import React from 'react'
-import list from '../../public/list.json'
+// import list from '../../public/list.json'
+// import axios from 'axios'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Cards from './Cards';
-
+import useFetch from '../hooks/useFetch';
 
 function FreeBook() {
 
-  const filterData = list.filter((data) => data.category === 'Free' );
-  // console.log(filterData);
+  const {book}  = useFetch('http://localhost:4001/book');
+
+
+  const filterData = book.filter((data) => data.category === 'Free' );
+  
   var settings = {
     dots: true,
     infinite: false,
@@ -52,14 +56,15 @@ function FreeBook() {
           <h1 className='font-semibold text-xl pb-2 '>Free Offered Books</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptatem quod laborum Lorem ipsum dolor sit amet. pariatur saepe nulla natus doloremque cum quaerat nisi.</p>
         </div>
-        <div>
-          <Slider {...settings}>
+        <div className='slider-container'>
+          <Slider {...settings} className=''>
             {
               filterData.map((item)=>(
                 <Cards item={item} key={item.id}/>
               ))
             }
           </Slider>
+            
         </div>
       </div>
     </>
